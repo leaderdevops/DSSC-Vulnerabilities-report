@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+docker-image-py = "*"
+reference = "*"
+docker-image = "*"
+docker = "*"
+ansible = "*"
+jsonify = "*"
+XlsxWriter = "*"
+xlsx2html = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
