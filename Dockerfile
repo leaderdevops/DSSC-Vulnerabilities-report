@@ -1,7 +1,7 @@
 FROM alpine
 
 MAINTAINER Tejas Sheth "tejas_s@trendmicro.com"
-FROM python:3.7
+FROM python:3.14.0a3
 
 RUN pip install --upgrade pip
 RUN mkdir -p /root/app
